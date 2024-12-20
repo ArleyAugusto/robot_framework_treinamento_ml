@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-20T12:35:06.764120" rpa="false" schemaversion="5">
+<suite id="s1" name="Trabalhando Com Variaveis" source="c:\Users\Arley\Desktop\Robot_framework_treinamento_ML\trabalhando_com_variaveis.robot">
+<test id="s1-t1" name="Váriavel Escalar" line="20">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${VARIAVEL_ESCALAR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-20T12:35:06.782441" elapsed="0.000396"/>
+</kw>
+<variable name="${nome}">
+<msg time="2024-12-20T12:35:06.783299" level="INFO">${nome} = Arley</msg>
+<var>Arley</var>
+<status status="PASS" start="2024-12-20T12:35:06.783142" elapsed="0.001366"/>
+</variable>
+<variable name="${sobrenome}">
+<msg time="2024-12-20T12:35:06.784886" level="INFO">${sobrenome} = Aguiar</msg>
+<var>Aguiar</var>
+<status status="PASS" start="2024-12-20T12:35:06.784758" elapsed="0.000228"/>
+</variable>
+<variable name="${composto}">
+<msg time="2024-12-20T12:35:06.785308" level="INFO">${composto} = Augusto</msg>
+<var>Augusto</var>
+<status status="PASS" start="2024-12-20T12:35:06.785209" elapsed="0.000175"/>
+</variable>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\nChamando as duas variáveis:${nome} ${sobrenome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-20T12:35:06.785645" elapsed="0.000492"/>
+</kw>
+<variable name="${nome_completo}">
+<msg time="2024-12-20T12:35:06.786606" level="INFO">${nome_completo} = Arley Augusto Aguiar</msg>
+<var>${nome} ${composto} ${sobrenome}</var>
+<status status="PASS" start="2024-12-20T12:35:06.786405" elapsed="0.000299"/>
+</variable>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\nConcatenando as tres variáveis:${nome_completo}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-20T12:35:06.786962" elapsed="0.000289"/>
+</kw>
+<status status="PASS" start="2024-12-20T12:35:06.781829" elapsed="0.005706"/>
+</test>
+<doc>Nesta suite aprenderemos a usar variáveis no Robot</doc>
+<status status="PASS" start="2024-12-20T12:35:06.767279" elapsed="0.020948"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Trabalhando Com Variaveis">Trabalhando Com Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

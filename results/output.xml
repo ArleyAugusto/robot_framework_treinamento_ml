@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-19T15:48:52.408902" rpa="false" schemaversion="5">
+<suite id="s1" name="Mercado Livre" source="C:\Users\Arley\Desktop\Robot_framework_treinamento_ML\mercado_livre.robot">
+<test id="s1-t1" name="Acessar Home do Mercado Livre" line="14">
+<kw name="Abrir Browser com a Home Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-19T15:48:52.663053" level="INFO">Opening browser 'chrome' to base url 'https://www.mercadolivre.com.br'.</msg>
+<arg>https://www.mercadolivre.com.br</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-19T15:48:52.662887" elapsed="2.331378"/>
+</kw>
+<status status="PASS" start="2024-12-19T15:48:52.662266" elapsed="2.332177"/>
+</kw>
+<status status="PASS" start="2024-12-19T15:48:52.661700" elapsed="2.333018"/>
+</test>
+<test id="s1-t2" name="Acessar Ofertas do Mercado Livre" line="17">
+<kw name="clicar no link Ofertas da home page">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-12-19T15:48:54.996108" level="INFO">Clicking link 'Oferta'.</msg>
+<msg time="2024-12-19T15:48:55.194692" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-19T15:48:55.194909" level="FAIL">Link with locator 'Oferta' not found.</msg>
+<arg>Oferta</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2024-12-19T15:48:54.995802" elapsed="0.246154">Link with locator 'Oferta' not found.</status>
+</kw>
+<status status="FAIL" start="2024-12-19T15:48:54.995586" elapsed="0.246539">Link with locator 'Oferta' not found.</status>
+</kw>
+<status status="FAIL" start="2024-12-19T15:48:54.995236" elapsed="0.247187">Link with locator 'Oferta' not found.</status>
+</test>
+<status status="FAIL" start="2024-12-19T15:48:52.410086" elapsed="2.832989"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Mercado Livre">Mercado Livre</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
